@@ -4,6 +4,9 @@
     "version": "1.0.0",
     "main": "index.ts",
     "bin": "dist/index.js",
+    "repository": {
+        "url": "https://github.com/link00000000/wsl-http-proxy"
+    },
     "license": "MIT",
     "dependencies": {
         "execa": "^5.0.0",
