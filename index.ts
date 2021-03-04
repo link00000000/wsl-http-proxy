@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { nopLogProvider } from './lib/logger'
 import { args } from './lib/args'
 import { getIpAddress } from './lib/wsl'
