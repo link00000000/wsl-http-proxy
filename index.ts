@@ -13,7 +13,8 @@ async function main() {
 
     app.use(
         createProxyMiddleware(`http://${wslIp}:${wslPort}`, {
-            logProvider: nopLogProvider
+            logProvider: nopLogProvider,
+            ws: true
         })
     )
 
