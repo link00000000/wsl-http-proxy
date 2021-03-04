@@ -1,7 +1,7 @@
 {
     "name": "wsl-http-proxy",
     "displayName": "WSL HTTP Proxy",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "index.ts",
     "bin": "dist/index.js",
     "repository": {
